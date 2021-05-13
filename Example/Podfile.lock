@@ -1,7 +1,7 @@
 PODS:
   - Masonry (1.1.0)
   - pop (1.0.12)
-  - ZTAnimator (0.1.1):
+  - ZTAnimator (0.1.2):
     - Masonry
     - pop
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
-  ZTAnimator: 90dcbf62510860e03fa6f3cde1319e7d6f6b0ebe
+  ZTAnimator: 62c98f7fb173ea25873742dcfa90b6f1ced6bcd0
 
 PODFILE CHECKSUM: 856a3363514fa12562577661acf9c20a6f7d515c
 
