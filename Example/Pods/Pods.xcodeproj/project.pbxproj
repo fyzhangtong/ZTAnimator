@@ -1162,9 +1162,9 @@
 			};
 			name = Debug;
 		};
-		68D4B898C5DDC390F8A67DB2076AE288 /* Release */ = {
+		67B5783D7146DD2ED2091F3EE193A80E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EA0DE533E713E7409D0CE5BF8D10B50 /* ZTAnimator.release.xcconfig */;
+			baseConfigurationReference = 171E128FA6A948DB6873D14B844D681E /* ZTAnimator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1177,7 +1177,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ZTAnimator/ZTAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ZTAnimator/ZTAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ZTAnimator/ZTAnimator.modulemap";
 				PRODUCT_MODULE_NAME = ZTAnimator;
@@ -1187,11 +1187,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6F3ABA621C7D8A502DF35F8022F18FB6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1225,36 +1224,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7B0687614119D2292AB5D5AF93478AEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 171E128FA6A948DB6873D14B844D681E /* ZTAnimator.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZTAnimator/ZTAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZTAnimator/ZTAnimator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZTAnimator/ZTAnimator.modulemap";
-				PRODUCT_MODULE_NAME = ZTAnimator;
-				PRODUCT_NAME = ZTAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BAAEE76A41ECC46CD2427284543EDE6D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1473,6 +1442,37 @@
 			};
 			name = Release;
 		};
+		F6CF3BD8C38DF5092A1D8092F9AFF4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA0DE533E713E7409D0CE5BF8D10B50 /* ZTAnimator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTAnimator/ZTAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTAnimator/ZTAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTAnimator/ZTAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ZTAnimator;
+				PRODUCT_NAME = ZTAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1488,8 +1488,8 @@
 		6A3FE2C53E280966A3CCE271C667C4DA /* Build configuration list for PBXNativeTarget "ZTAnimator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B0687614119D2292AB5D5AF93478AEB /* Debug */,
-				68D4B898C5DDC390F8A67DB2076AE288 /* Release */,
+				67B5783D7146DD2ED2091F3EE193A80E /* Debug */,
+				F6CF3BD8C38DF5092A1D8092F9AFF4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
