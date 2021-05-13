@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (1.1.0)
+  - pop (1.0.12)
+  - ZTAnimator (0.1.0):
+    - Masonry
+    - pop
+
+DEPENDENCIES:
+  - ZTAnimator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - pop
+
+EXTERNAL SOURCES:
+  ZTAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  ZTAnimator: 9f907de31f2e9bc768abd45d9f5511800bd3baf2
+
+PODFILE CHECKSUM: 856a3363514fa12562577661acf9c20a6f7d515c
+
+COCOAPODS: 1.10.1

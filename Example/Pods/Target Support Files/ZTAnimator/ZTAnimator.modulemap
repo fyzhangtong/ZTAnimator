@@ -1,0 +1,6 @@
+framework module ZTAnimator {
+  umbrella header "ZTAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}

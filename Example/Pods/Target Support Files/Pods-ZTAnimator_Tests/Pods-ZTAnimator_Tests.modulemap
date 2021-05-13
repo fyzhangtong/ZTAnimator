@@ -1,0 +1,6 @@
+framework module Pods_ZTAnimator_Tests {
+  umbrella header "Pods-ZTAnimator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
